@@ -19,8 +19,8 @@ function unzip_molly {
 
 function install_molly {
     cd $temp_download_folder
-    sudo cp ./molly /usr/bin/molly
-    sudo chmod +x /usr/bin/molly
+    cp ./molly /usr/bin/molly
+    chmod +x /usr/bin/molly
 }
 
 function check_command_exists {
